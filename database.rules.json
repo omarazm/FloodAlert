@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "users": {
+      // ".indexOn": "username",
+      ".read": "auth != null",
+      ".write": true
+    },
+    "Pins": {
+      ".read": true,
+      ".write": true
+    },
+    "Sensor": {
+      ".read": true,
+      ".write": true,
+    }
+  }
+}
